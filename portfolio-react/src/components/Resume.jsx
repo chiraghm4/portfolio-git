@@ -1,6 +1,6 @@
 import React from 'react'
 import { Document, Page } from 'react-pdf'
-import resume from '../assets/resume/Chirag_Maski_VIIT_Resume.pdf'
+import resume from '../assets/resume/Chirag_Maski_Resume.pdf'
 
 function Resume() {
   return (

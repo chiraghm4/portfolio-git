@@ -7,7 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
-import resume from "../assets/resume/Chirag_Maski_VIIT_Resume.pdf";
+import resume from "../assets/resume/Chirag_Maski_Resume.pdf";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
