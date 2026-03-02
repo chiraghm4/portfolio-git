@@ -12,9 +12,9 @@ function Projects() {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems
           img={img}
-          title="PlaceHunt (frontend)"
-          linkToRepo="https://github.com/chiraghm4/summer-project"
-          techUsed={["ReactJs", "React-bootstrap", "Axios", "React-router"]}
+          title="Go-Gateway"
+          linkToRepo="https://github.com/chiraghm4/Go-Gateway"
+          techUsed={["Golang", "Goroutines", "Mutex", "net/http"]}
         />
         <ProjectItems
           img={img}
