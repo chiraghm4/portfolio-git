@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaLinkedin, FaGithub, FaLink } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub, } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -18,13 +18,13 @@ const Main = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Developer",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Coder",
+                "Golang Developer",
+                1000, 
+                "System Designer",
                 1000,
-                "Student",
+                "GenAI & AI/ML Enthusiast",
                 1000,
-                "Tech Enthusiast",
+                "DevOps Engineer",
                 1000,
               ]}
               wrapper="span"
@@ -38,9 +38,9 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter size={20} className="cursor-pointer"/>
-            <FaLinkedin size={20} className="cursor-pointer"/>
-            <FaGithub size={20} className="cursor-pointer"/>
+            <a href="https://twitter.com/haha_miracle"><FaTwitter size={20} className="cursor-pointer" /></a>
+            <a href="https://www.linkedin.com/in/chirag-maski/"><FaLinkedin size={20} className="cursor-pointer"/></a>
+            <a href="https://github.com/chiraghm4"><FaGithub size={20} className="cursor-pointer"/></a>
           </div>
         </div>
       </div>
